@@ -42,5 +42,7 @@ input   [7:0]  	WEN;    //Write Enable Negative
 input   [5:0]   A;
 input   [7:0]  	D;
 output	[7:0]	Q;
+inout		VDD;
+inout		VSS;
 
 endmodule
